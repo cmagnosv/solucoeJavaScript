@@ -6,7 +6,7 @@ function ajustaNome(campo){
         caracteres="ABCEDFGHIJKLMNOPQRSTUVXWYZ abcdefghijklmnopqrstuvxwyzáàâãéèêíïóôõöúçñÁÀÂÃÉÈÍÏÓÔÕÖÚÇÑ 1234567890";
           for (letra1 of caracteres ){
             if (letra==letra1){
-            		texto1+=letra;
+            	texto1+=letra;
             }
           }
         }
