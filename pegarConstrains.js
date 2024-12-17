@@ -1,3 +1,8 @@
+#-------FUNÇÃO de chamada PARA PEGAR Constraint(valores dentro do arrayList) ----#
+
+var constraints1 = new Array();
+var formSituacao = getConstraintValue(constraints, "formSituacao") != 'numero vazio' ? getConstraintValue(constraints, "formSituacao") : 'A'; 
+
 /**
  * Pega o valor da Constraint
  *
